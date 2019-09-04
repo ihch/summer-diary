@@ -1,17 +1,27 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
+    <!--
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    -->
+    <!-- 
+      <Sample message="hogehoge" />
+    -->
+    <Axios />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+// import Sample from './components/Sample.vue'
+import Axios from './components/Axios.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    // HelloWorld
+    // Sample
+    Axios
   }
 }
 </script>
@@ -26,3 +36,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+
