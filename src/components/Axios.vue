@@ -1,7 +1,9 @@
 <template>
   <div>
     hoge
-    {{ data }}
+    <div v-for="(value, name) in data.data" v-bind:key="name">
+      {{ name }}: {{ value }}
+    </div>
   </div>
 </template>
 
