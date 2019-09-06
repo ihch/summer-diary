@@ -14,7 +14,7 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 // import Sample from './components/Sample.vue'
-import Axios from './components/Axios.vue'
+import Axios from './components/learn/Axios.vue'
 
 export default {
   name: 'app',
